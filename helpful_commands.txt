@@ -1,1 +1,2 @@
-pyside6-uic main_window.ui -o ui_main_window.py
+pyside6-uic UI\main_window.ui -o GUI\ui_main_window.py
+pip freeze > requirements.txt
